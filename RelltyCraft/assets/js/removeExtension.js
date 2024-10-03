@@ -3,7 +3,7 @@ function removeFileExtension() {
     let currentURL = window.location.href;
 
     // Pola untuk mencocokkan ekstensi dan kata 'index'
-    let regex = /\/(index)?(\.(html|htm|php|asp|jsp|txt|css|js|json))?$/;
+    let regex = /\/(index)?(\.(html))?$/;
 
     // Jika URL memiliki ekstensi atau kata 'index', hapus dari URL
     if (regex.test(currentURL)) {

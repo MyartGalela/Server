@@ -6,31 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Tautan ke folder RelltyCraft -->
-    <a href="RelltyCraft/index.html" id="rellty-link">Rellty Craft</a>
-
-    <script>
-        // Tangkap elemen tautan dengan ID `rellty-link`
-        const relltyLink = document.getElementById('rellty-link');
-
-        // Tambahkan event listener untuk menangani klik
-        relltyLink.addEventListener('click', function(event) {
-            event.preventDefault(); // Cegah navigasi default agar tidak langsung pindah
-
-            // Lakukan pengalihan ke halaman RelltyCraft/index.html
-            window.location.href = 'RelltyCraft/index.html';
-
-            // Setelah halaman dimuat, hapus `index.html` dari URL
-            window.onload = function() {
-                let currentURL = window.location.href;
-
-                // Jika URL berakhir dengan `index.html`, ubah URL di bilah alamat
-                if (currentURL.endsWith('index.html')) {
-                    let newURL = currentURL.replace('index.html', ''); // Hapus `index.html`
-                    history.replaceState(null, '', newURL); // Ganti URL di bilah alamat
-                }
-            };
-        });
-    </script>
+    <a href="RelltyCraft/">Rellty Craft</a>
 </body>
 </html>
