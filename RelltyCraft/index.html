@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+    <title>RelltyCraft</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo.png" alt="image">
+                RelltyCraft
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#stores" class="nav__link">Store</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#galleries" class="nav__link">Gallery</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Selamat <span>Datang</span>
+                        </h3>
+                        <h1 class="home__title">RelltyCraft</h1>
+                        <h3 class="home__info">Server Minecraft Indonesia</h3>
+
+                        <p class="home__description">
+                            dunia Minecraft yang penuh dengan petualangan dan kreativitas!
+                             Temukan pengalaman bermain yang unik dan 
+                             bergabunglah dengan komunitas kami.
+                        </p>
+
+                        <a href="https://www.whatsapp.com/channel/0029VagEWdeDeOMxZ7RAv21I" target="_blank" class="button">
+                            Join Us
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="#" class="home__social-link">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <a href="#" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="home__social-link">
+                            <i class="ri-discord-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__server">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Vanilla Bedrock <span>Server</span>
+                        </h3>
+                        <p class="home__description">
+                            Nikmati gameplay survival terbaik dengan fitur terbaru 
+                            tanpa plugin atau addon, didukung mesin berperforma tinggi yang 
+                            membuat server anti down!
+                        </p>
+
+                        <div class="home__server-info">
+                            <div class="server-info-labels">
+                                <p>IP :</p>
+                                <p>Port :</p>
+                                <p>Status :</p>
+                                <p>Player :</p>
+                                <p>Versi :</p>
+                            </div>
+
+                            <div class="server-info-values status">
+                                <p id="serverIP">Loading...</p>
+                                <p id="serverPort">Loading...</p>
+                                <p id="serverStatus">Loading...</p>
+                                <p>
+                                    <span id="playersOn">Loading...</span>/<span id="playersMax">50</span>
+                                </p>
+                                <p id="serverVersion">Loading...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h3 class="section__subtitle">
+                        About <span>Us</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        About Server
+                    </h2>
+
+                    <p class="about__description">
+                        Rellty Craft adalah server Minecraft Vanilla Bedrock tanpa plugin dan addon. 
+                        Kami menawarkan pengalaman Survival terbaik
+                        dengan performa server yang stabil dan gameplay yang seimbang.
+                    </p>
+
+                    <a href="https://chat.whatsapp.com/FrednX40er13JgYhPvJJJ3" target="_blank" class="button">
+                        Join Group
+                    </a>
+                </div>
+                
+                <div class="gameplay__data">
+                    <h3 class="section__subtitle">
+                        Gameplay <span>Features</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        Gameplay Overview
+                    </h2>
+
+                    <p class="about__description">
+                        Rasakan serunya Survival Economy! Kumpulkan money, bertualang, dan raih rank spesial.
+                         Season baru hadir setiap 2 bulan, namun pencapaian money dan star tetap berlanjut.
+                         Jangan lewatkan event mingguan dengan hadiah menarik yang siap menanti juara!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FEATURE ====================-->
+        <section class="features  section">
+            <div class="features__container container grid">
+                <div class="features__data">
+                    <h3 class="section__subtitle">
+                        Discover Our <span>Features</span>
+                    </h3>
+
+                    <h2 class="section__title">Highlighted Features</h2>
+                    <p class="features__description">
+                        Jelajahi fitur unggulan kami yang meningkatkan pengalaman 
+                        bermainmu. Lihat galeri foto untuk dokumentasi server yang 
+                        lebih lengkap.
+                    </p>
+
+                    <a href="#galleries" class="button">See Gellery
+                    </a>
+                </div>
+
+                <div class="features__content">
+                    <ol class="features__group">
+                        <li class="features__item">Economy</li>
+                        <li class="features__item">Survival</li>
+                        <li class="features__item">Treasure</li>
+                        <li class="features__item">Parkour</li>
+                    </ol>
+                    <ol class="features__group" start="5">
+                        <li class="features__item">Clan</li>
+                        <li class="features__item">Rewards</li>
+                        <li class="features__item">Weapons</li>
+                        <li class="features__item">Events</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        
+        <!--==================== RULES ====================-->
+        <section class="rules section">
+            <div class="rules__container container grid">
+                <div class="server__rules__data">
+                    <h3 class="section__subtitle">
+                        Server <span>Guidelines</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        Rules & Regulations
+                    </h2>
+                    <ul class="rules__group">
+                        <li class="rules__item">Jangan Rusuh</li>
+                        <li class="rules__item">Dilarang Cheat</li>
+                        <li class="rules__item">Jaga Fasilitas</li>
+                        <li class="rules__item">Hindari Toxic</li>
+                        <li class="rules__item">No PVP di Lobby</li>
+                        <li class="rules__item">Hormati Pemula</li>
+                        <li class="rules__item">Jangan Abuse Bug</li>
+                        <li class="rules__item">Patuhi Rank</li>
+                    </ul>
+                </div>
+                
+                <div class="community__rules__data">
+                    <h3 class="section__subtitle">
+                        Community <span>Guidelines</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        Rules & Regulations
+                    </h2>
+                    <ul class="rules__group">
+                        <li class="rules__item">No Promosi/Spam</li>
+                        <li class="rules__item">No Promosi</li>
+                        <li class="rules__item">Dilarang 18+</li>
+                        <li class="rules__item">Topik Relevan</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== STORE ====================-->
+        <section class="stores section" id="stores">
+            <h3 class="section__subtitle">
+                RelltyCraft<span> Store</span>
+            </h3>
+
+            <h2 class="section__title">
+                Apa yang kami tawarkan?
+            </h2>
+
+            <div class="stores__container container grid">
+                <article class="stores__card">
+                    <h2 class="stores__title">MEMBERSHIP</h2>
+                    <ul class="stores__description">
+                        <li>Money:50K</li>
+                        <li>Diamond:100</li>
+                        <li>Iron:100</li>
+                        <li>Shulker:2</li>
+                        <li>Ender Chest:1</li>
+                        <li>Reg. Lvl 1</li>
+                        <li class="price__item">Harga:5K</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="button" onclick="buy('MEMBERSHIP', '5K')"><i class="ri-shopping-cart-line"></i>
+                        Buy
+                    </a>
+                </article>
+
+                <article class="stores__card">
+                    <h2 class="stores__title">VIP</h2>
+                    <ul class="stores__description">
+                        <li>Money:100K</li>
+                        <li>Star:10</li>
+                        <li>Diamond:200</li>
+                        <li>Iron:200</li>
+                        <li>Shulker:3</li>
+                        <li>Ender Chest: 2</li>
+                        <li>Reg. Lvl 2</li>
+                        <li>Admin Shop</li>
+                        <li class="price__item">Harga:10K</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="button" onclick="buy('VIP', '10K')"><i class="ri-shopping-cart-line"></i>
+                        Buy
+                    </a>
+                </article>
+                
+                <article class="stores__card">
+                    <h2 class="stores__title">VIP+</h2>
+                    <ul class="stores__description">
+                        <li>Money: 200K</li>
+                        <li>Star:20</li>
+                        <li>Diamond:400</li>
+                        <li>Iron:400</li>
+                        <li>Shulker:4</li>
+                        <li>Ender Chest:3</li>
+                        <li>Reg. Lvl 3</li>
+                        <li>TP Random: 2</li>
+                        <li>Admin Shop</li>
+                        <li>Reset Mining</li>
+                        <li class="price__item">Harga:20K</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="button" onclick="buy('VIP', '20K')"><i class="ri-shopping-cart-line"></i>
+                        Buy
+                    </a>
+                </article>
+
+                <article class="stores__card">
+                    <h2 class="stores__title">SUPREME</h2>
+                    <ul class="stores__description">
+                        <li>Money:500K</li>
+                        <li>Star:50</li>
+                        <li>Diamond:800</li>
+                        <li>Iron:800</li>
+                        <li>Shulker:5</li>
+                        <li>Ender Chest:4</li>
+                        <li>Reg. Lvl 4</li>
+                        <li>TP Random: 2</li>
+                        <li>Admin Shop</li>
+                        <li>Reset Mining</li>
+                        <li class="price__item">Harga:50K</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="button" onclick="buy('VIP', '50K')"><i class="ri-shopping-cart-line"></i>
+                        Buy
+                    </a>
+                </article>
+
+                <article class="stores__card">
+                    <h2 class="stores__title">SULTAN</h2>
+                    <ul class="stores__description">
+                        <li>Fly</li>
+                        <li>Sultan Sword: 30+ DMG</li>
+                        <li>Money: 700K</li>
+                        <li>Star: 70</li>
+                        <li>Diamond: 1,2K</li>
+                        <li>Iron: 1,2K</li>
+                        <li>Shulker: 6</li>
+                        <li>Ender Chest: 5</li>
+                        <li>Reg. Lvl 5</li>
+                        <li>Haste Lvl 2</li>
+                        <li>TP Random: 2</li>
+                        <li>Admin Shop</li>
+                        <li>Reset Mining</li>
+                        <li class="price__item">Harga:80K</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="button" onclick="buy('VIP', '80K')"><i class="ri-shopping-cart-line"></i>
+                        Buy
+                    </a>
+                </article>
+
+                <article class="stores__card">
+                    <h2 class="stores__title">OMEGA</h2>
+                    <ul class="stores__description">
+                        <li>Fly</li>
+                        <li>Omega Scythes Dmg 37+</li>
+                        <li>Money: 1,100K</li>
+                        <li>Star: 100</li>
+                        <li>Diamond: 2K</li>
+                        <li>Iron: 2K</li>
+                        <li>Shulker: 7</li>
+                        <li>Ender Chest: 6</li>
+                        <li>Reg. Lvl 5</li>
+                        <li>HP Boost  Lvl 2</li>
+                        <li>Haste Lvl 2</li>
+                        <li>TP Random: 2</li>
+                        <li>Admin Shop</li>
+                        <li>Reset Mining</li>
+                        <li class="price__item">Harga:120K</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="button" onclick="buy('VIP', '120K')"><i class="ri-shopping-cart-line"></i>
+                        Buy
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== GALLERY ====================-->
+        <section class="galleries section" id="galleries">
+            <h3 class="section__subtitle">
+                RelltyCraft<span> Gallery</span>
+            </h3>
+
+            <h2 class="section__title">
+                Recent Gallery
+            </h2>
+
+            <div class="galleries__container container grid">
+                <article class="galleries__card">
+                    <img src="assets/img/gallery-img-1.jpg" alt="image" class="galleries__img">
+                </article>
+                
+                <article class="galleries__card">
+                    <img src="assets/img/gallery-img-2.jpg" alt="image" class="galleries__img">
+                </article>
+                
+                <article class="galleries__card">
+                    <img src="assets/img/gallery-img-3.jpg" alt="image" class="galleries__img">
+                </article>
+                
+                <article class="galleries__card">
+                    <img src="assets/img/gallery-img-4.jpg" alt="image" class="galleries__img">
+                </article>
+                
+                <article class="galleries__card">
+                    <img src="assets/img/gallery-img-5.jpg" alt="image" class="galleries__img">
+                </article>
+                
+                <article class="galleries__card">
+                    <img src="assets/img/gallery-img-6.jpg" alt="image" class="galleries__img">
+                </article>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid" >
+                <div class="contact__content">
+                <div class="contact__data">
+                    <h3 class="contact__subtitle">
+                        Owner<span> RelltyCraft</span>
+                    </h3>
+                    <h1 class="contact__title">Jimmye</h1>
+
+                    <h3 class="contact__education">Admin & Pemilik Server</h3>
+
+                    <p class="contact__description">
+                        Punya pertanyaan atau ingin berbicara langsung dengan pemilik? 
+                        Jangan ragu untuk menghubungi kami! Kami siap membantu.
+                    </p>
+
+                    <a href="#contact" class="button">Let's Talk</a>
+                </div>
+                <div class="contact__social">
+                    <a href="https://github.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+
+                    <a href="https://dribble.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://linkedin.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-discord-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact__image">
+                <img src="assets/img/contact-img.png" alt="image">
+            </div>
+            </div>
+        </section>
+        
+    </main>
+     <!--==================== FOOTER ====================-->
+     <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">
+                    Jimmy
+                </h1>
+
+                <h2 class="footer__education">
+                    Admin & Pemilik Server
+                </h2>
+            </div>
+
+            <div class="footer__social">
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="ri-whatsapp-line"></i>
+                </a>
+                
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                
+                <a href="#" target="_blank" class="footer__social-link">
+                    <i class="ri-discord-line"></i>
+                </a>
+            </div>
+
+            <span class="footer__copy">
+                &#169; Copyright Jimmyre. All right  reserved
+            </span>
+        </div>
+    </footer>
+    <!--==================== SCROLL UP ====================-->
+     <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/minecraft.js"></script>
+    <script src="assets/js/store-function.js"></script>
+</body>
+</html>
