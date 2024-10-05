@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+#visitorCount {
+    font-size: 2em;
+    color: #007bff;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
