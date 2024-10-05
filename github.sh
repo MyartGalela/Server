@@ -47,7 +47,7 @@ read -p "Masukkan pesan commit: " commit_message
 git commit -m "$commit_message"
 
 # Tambahkan remote repository (ganti <URL-Repo-Anda> dengan URL repositori)
-git remote add origin <URL-Repo-Anda>
+git pull -u origin main
 
 # Push ke branch main
 git push -u origin main

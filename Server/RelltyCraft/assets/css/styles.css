@@ -206,7 +206,7 @@ img {
         position: fixed;
         top: -120%;
         left: 0;
-        background-color: hsl(0, 0%, 100%, 0.3);
+        background-color: hsla(0, 0%, 100%, 0.3);
         width: 100%;
         padding-block: 5rem 4rem;
         backdrop-filter: blur(24px);
@@ -636,16 +636,16 @@ img {
 ::-webkit-scrollbar {
     width: .6rem;
     border-radius: 1rem;
-    background-color: rgb(216, 216, 216);
+    background-color: hwb(185 76% 18%);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: hsl(180, 1%, 32%);
+    background-color: hsl(180, 45%, 63%);
     border-radius: .5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: hsl(0, 0%, 42%);
+    background-color: hsl(188, 35%, 57%);
 }
 
 /* ==================== SCROLL UP ====================*/
