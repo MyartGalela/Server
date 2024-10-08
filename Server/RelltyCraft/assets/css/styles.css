@@ -23,7 +23,7 @@
         -> click on tab (Color Conversion)
         -> Copy the color mode (HSL)
     */
-f
+
     --hue: 199;
     --first-color: hsl(var(--hue), 100%, 49%);
     --first-color-alt: hsl(var(--hue), 54%, 50%);
