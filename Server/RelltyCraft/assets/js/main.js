@@ -98,3 +98,5 @@ sr.reveal('.stores__card, .galleries__card', {interval: 100})
       event.preventDefault();
     }
   });
+
+  f
