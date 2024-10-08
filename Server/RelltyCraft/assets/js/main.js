@@ -80,22 +80,21 @@ sr.reveal('.about__data, .features__data, .community__rules__data',  {origin: 'l
 sr.reveal('.gameplay__data, .features__content, .server__rules__data', {origin: 'right'})
 sr.reveal('.stores__card, .galleries__card', {interval: 100})
 
-
  // Mencegah klik kanan
-    document.addEventListener('contextmenu', function(event) {
+ document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+  });
+
+  // Mencegah tombol shortcut F12 dan Inspect Element (Ctrl+Shift+I)
+  document.addEventListener('keydown', function(event) {
+    if (event.key == 'F12' || (event.ctrlKey && event.shiftKey && event.key == 'I')) {
       event.preventDefault();
-    });
+    }
+  });
 
-    // Mencegah tombol shortcut F12 dan Inspect Element (Ctrl+Shift+I)
-    document.addEventListener('keydown', function(event) {
-      if (event.key == 'F12' || (event.ctrlKey && event.shiftKey && event.key == 'I')) {
-        event.preventDefault();
-      }
-    });
-
-    // Mencegah penggunaan Ctrl+U (Lihat Sumber)
-    document.addEventListener('keydown', function(event) {
-      if (event.ctrlKey && event.key == 'u') {
-        event.preventDefault();
-      }
-    });
+  // Mencegah penggunaan Ctrl+U (Lihat Sumber)
+  document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.key == 'u') {
+      event.preventDefault();
+    }
+  });

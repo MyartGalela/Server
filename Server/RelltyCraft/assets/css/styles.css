@@ -329,29 +329,29 @@ img {
 .home__server-info {
     display: flex;
     justify-content: center;
-    column-gap: 3rem;
 }
 
-.home__server-info p{
+.home__server-info{
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi-bold);
     text-align: left;
     margin-top: 1rem;
 }
 
-.server-info-labels{
-    color: var(--title-color);
-}
-
-.server-info-values{
+.server-info-label {
     color: var(--first-color-alt);
+    margin-bottom: 1rem;
 }
 
-.status-online {
+.server-info-label span {
+    color: var(--first-color);
+}
+
+.server-info-label .status-online {
     color: green;
 }
 
-.status-offline {
+.server-info-label .status-offline {
     color: red;
 }
 
@@ -586,6 +586,9 @@ img {
 
 .contact__image img {
     width: 320px;
+  mask-image: linear-gradient(to bottom,
+              hsla(var(--hue), 40%, 16%) 60%,
+              transparent 100%);
 }
 /* ==================== FOOTER ====================*/
 .footer {
@@ -672,7 +675,7 @@ img {
     bottom: 3rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 382px) {
     .container {
         margin-inline: 1rem;
     }
